@@ -1,0 +1,21 @@
+Source: prettier
+Section: javascript
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/prettier/prettier/tags
+Vcs-Browser: https://github.com/alvistack/prettier-prettier
+Vcs-Git: https://github.com/alvistack/prettier-prettier.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ fdupes,
+
+Package: prettier
+Architecture: all
+Description: Prettier is an opinionated code formatter
+ Prettier is an opinionated code formatter. It enforces a consistent
+ style by parsing your code and re-printing it with its own rules that
+ take the maximum line length into account, wrapping code when necessary.
+Depends:
+ ${misc:Depends},
